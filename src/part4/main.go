@@ -91,11 +91,4 @@ func main() {
 	fmt.Println("part2:", part2)
 	fmt.Println("part3:", part3)
 	fmt.Println("")
-
-	// Capacity expansion demonstration
-	dynamic := []int{}
-	for i := 1; i <= 8; i++ {
-		dynamic = append(dynamic, i)
-		fmt.Printf("After appending %d: len=%d cap=%d\n", i, len(dynamic), cap(dynamic))
-	}
 }
